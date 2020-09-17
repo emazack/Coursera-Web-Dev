@@ -41,7 +41,7 @@ p{
 }
 
 section h2 {
-    width: 40%;
+    width: 150px;
     text-align: center;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
@@ -49,4 +49,32 @@ section h2 {
     top: 0px;
     right: 0px;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #chicken, #beef {
+        float: left;
+        width: 44%;
+        margin-left: 3.8%;
+        margin-bottom: 35px;
+    }
+
+    #sushi{
+        width: 91.8%;
+        margin-left: 3.8%;
+        height: 165px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    #chicken, #beef, #sushi {
+        float: none;
+        width: 80%;
+        margin: 5% 10%;     
+    }
+
+}
+
 
